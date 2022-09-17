@@ -1,0 +1,21 @@
+.backdrop {
+  background-color: #000000;
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.modal_card {
+  position: fixed;
+  width: 100%;
+  max-width: 35rem;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  height: auto;
+  max-height: 100%;
+  overflow-y: auto;
+}

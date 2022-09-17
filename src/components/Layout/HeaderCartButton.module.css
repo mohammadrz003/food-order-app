@@ -1,0 +1,52 @@
+.header_cart_button {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  border: none;
+  outline: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #319DA0;
+}
+
+.cart_button_title {
+  display: inline-block;
+  font: 700;
+  font-size: 1.2rem;
+  margin-right: 0.8rem;
+}
+
+.badge {
+  border-radius: 100%;
+  font: bold;
+  font-size: 1.2rem;
+  background-color: #54BAB9;
+  padding: 0.2rem 0.5rem;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
